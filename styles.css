@@ -32,3 +32,9 @@
     font-family: "Sofia", sans-serif;
     background-image: url(cool-background\ \(4\).png)
   }
+#Highlight{
+    background-color: deepskyblue;
+}
+.text-align{
+    text-align: center;
+}
