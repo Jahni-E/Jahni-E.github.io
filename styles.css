@@ -39,7 +39,7 @@
     text-align: center;
 }
 h3{
-    text-align: right;
+    text-align: left;
 }
 
 .about_me{
@@ -53,4 +53,7 @@ border-radius: 24px;
 }
 .about_me h3{
     text-align: center;
+}
+#Color{
+    background-color: aliceblue;
 }
