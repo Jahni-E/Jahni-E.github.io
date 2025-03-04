@@ -10,7 +10,7 @@
  }
  .navbar ul{
     list-style-type:none;
-    background-color: rgba(0, 187, 255, 0.48) ;
+    background-color: rgba(223, 235, 239, 0.984) ;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -30,7 +30,7 @@
  }
  body {
     font-family: "Sofia", sans-serif;
-    background-image: url(cool-background\ \(4\).png)
+    background-image: url(cool-background\ \(5\).png)
   }
 #Highlight{
     background-color: rgba(234, 226, 5, 0.933);
