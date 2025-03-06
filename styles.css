@@ -1,59 +1,80 @@
- body{
+ body {
     margin: 0px;
  }
- main{
+
+ main {
     margin-left: 20px;
     margin-right: 20px;
  }
- h1{
+
+ h1 {
     text-align: left;
  }
- .navbar ul{
-    list-style-type:none;
-    background-color: rgba(223, 235, 239, 0.984) ;
+
+ .navbar ul {
+    list-style-type: none;
+    background-color: rgb(17, 181, 251);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
  }
- .navbar a{
-    color:rgba(0, 68, 255, 0.919);
+
+ .navbar a {
+    color: rgba(0, 68, 255, 0.919);
     text-decoration: none;
     padding: 15px;
-    display:block ;
-    text-align:center ;
+    display: block;
+    text-align: center;
  }
- .navbar a:hover{
-    background-color: rgba(205, 205, 205, 0.906) ;
+
+ .navbar a:hover {
+    background-color: rgba(205, 205, 205, 0.906);
  }
- .navbar li{
+
+ .navbar li {
     float: left;
  }
+
  body {
     font-family: "Sofia", sans-serif;
-    background-image: url(cool-background\ \(5\).png)
-  }
-#Highlight{
-    background-color: rgba(234, 226, 5, 0.933);
-}
-.text-align{
-    text-align: center;
-}
-h3{
-    text-align: left;
-}
+    background-image: url(cool-background\ \(6\).png)
+ }
 
-.about_me{
-    display: flex;
-}
-.about_me:nth-child(even) {
-    flex-direction: row-reverse;
-}
-.about_me img{
-border-radius: 24px;
-}
-.about_me h3{
+ #Highlight {
+    background-color: rgba(5, 196, 234, 0.933);
+ }
+
+ .text-align {
     text-align: center;
-}
-#Color{
-    background-color: aliceblue;
-}
+ }
+
+ h3 {
+    text-align: left;
+ }
+
+ .about_me {
+    display: flex;
+ }
+
+ .about_me:nth-child(even) {
+    flex-direction: row-reverse;
+ }
+
+ .about_me img {
+    border-radius: 24px;
+ }
+
+ .about_me h3 {
+    text-align: center;
+ }
+
+ #Color {
+    background-color: rgb(11, 186, 255);
+ }
+
+ @media screen and (max-width: 600px) {
+    .about_me, .about_me:nth-child(even) {
+       flex-direction: column;
+    }
+ }
+ 
